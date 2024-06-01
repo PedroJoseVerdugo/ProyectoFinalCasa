@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Color de fondo suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4caf50; /* Verde suave */
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.currency, .amount {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #cfd8dc; /* Gris claro */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #2196f3; /* Azul suave */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1976d2; /* Azul más oscuro */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #4caf50; /* Verde suave */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+h1, h2 {
+    color: #333333; /* Gris oscuro */
+}
+
+#monedas ul {
+    list-style: none;
+    padding: 0;
+}
+
+#monedas ul li {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Color de fondo suave */
+    border-radius: 5px;
+}
+
+
+.currency {
+    display: inline-block;
+}
+
+select {
+    width: auto;
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.currency,
+.amount,
+button {
+    display: inline-block;
+}
+
+select,
+input[type="number"],
+button {
+    width: auto;
+    min-width: 100px;
+    max-width: 200px;
+}
+
+
